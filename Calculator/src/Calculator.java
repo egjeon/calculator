@@ -22,6 +22,7 @@ public class Calculator {
 				try {
 					Calculator window = new Calculator();
 					window.frame.setVisible(true);
+					System.out.println("되냐안되냐");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
